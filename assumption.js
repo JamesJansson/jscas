@@ -36,6 +36,12 @@ Assumption.prototype.Substitute=function(){
 };
 
 
+function GenerateAssumptions (){
+	// Take existing assumptions, substitute and simplify 
+}
+
+
+
 //list of inititating values
 // x=y true if y=x
 // x+b=y+b true if x=y

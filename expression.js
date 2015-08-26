@@ -17,6 +17,11 @@ Expression.prototype.NumerateSymbols=function(InputExpression, SymbolProperties)
 	// 	
 }
 
+Expression.prototype.CheckForErrors=function(SpecificVariableName){
+	
+}
+
+
 Expression.prototype.Substitute=function(variableName, InputExpression){
 	this.Match(InputExpression);
 	
@@ -41,6 +46,12 @@ Expression.prototype.SubExpression=function(InputExpression, ){
 Expression.prototype.Isolate=function(SpecificVariableName){
 	
 }
+
+
+
+
+
+
 
 
 function FunctionalExpression(){
